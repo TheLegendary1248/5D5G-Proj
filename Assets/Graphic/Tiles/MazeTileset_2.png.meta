@@ -48,7 +48,7 @@ TextureImporter:
       213: -6260262475908723101
     second: MazeTileset_2_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +69,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -78,8 +79,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 0
     wrapV: 0
     wrapW: 0
@@ -100,11 +101,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -120,6 +124,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -458,6 +474,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MazeTileset_2_14: -6260262475908723101
+      MazeTileset_2_6: -1386130765283838905
+      MazeTileset_2_10: -6519855448786852411
+      MazeTileset_2_7: 368654301404520676
+      MazeTileset_2_1: -6380828087097813172
+      MazeTileset_2_11: 3309594769208371493
+      MazeTileset_2_2: -3524775311184045403
+      MazeTileset_2_9: -5686515996870622174
+      MazeTileset_2_4: -3920874291253012228
+      MazeTileset_2_12: -6973271104716034536
+      MazeTileset_2_8: -4518689721095954302
+      MazeTileset_2_5: 8922590621883417455
+      MazeTileset_2_13: -4971962096244879270
+      MazeTileset_2_0: -345280861295386733
+      MazeTileset_2_3: 6120696692706470636
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
